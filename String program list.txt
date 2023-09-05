@@ -1,0 +1,35 @@
+Strting s  = " ";
+Char[] ch= s.toCharArray();
+Map<character,Integer> mp = new TreeMap<Character,Integer>();
+For( int i =0 ;ch.lenght();i++){
+char c =ch[i];
+if ( mp.contains.keys(c)){
+ Integer int =mp.get(i);
+mp.put(c,int+1);
+}else{
+mp.put(c,1){
+}
+}
+Set<Entry<character,Integer> entrySet=mp.entrySet();
+for(Entry<character<integer> entry: entrySet){
+system.out.println(entry);
+}}
+
+===========================
+String s= "";
+string rev= " ";
+for ( int i =s.lenght-1;i>=0;i--){
+rev=rev+s.charAt(i);
+}
+sysout(rev);
+}
+
+
+===============
+
+String s = " ";
+int i =s.Lenght()
+While(i>0){
+char c = s.charAt(i-1);
+sysout(c);
+i--;
