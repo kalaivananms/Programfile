@@ -33,3 +33,10 @@ While(i>0){
 char c = s.charAt(i-1);
 sysout(c);
 i--;
+String reverse
+===============
+String s= "";
+String[] str = s.split(" ");
+Collection.reverse(Arrays.asList(Str);
+system.out.println(" ",str);
+
