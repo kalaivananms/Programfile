@@ -40,3 +40,24 @@ String[] str = s.split(" ");
 Collection.reverse(Arrays.asList(Str);
 system.out.println(" ",str);
 
+Create a declare a string as mail style .
+==========================================
+String s5 = "kalaivanan";
+
+    // Print only the first two characters
+    String firstTwoChars = s5.substring(2, 4);
+    System.out.println("First two characters: " + firstTwoChars);
+
+    //Declare the String mail Style 
+
+    String email = "kalaivananms@gmail.com";
+
+    // Find the index of the "@" symbol.
+    int atIndex = email.indexOf("@");
+
+    // Extract the substring before the "@".
+    String username = email.substring(0, atIndex);
+
+    // Print the extracted substring
+    System.out.println("Username is : " + username);
+
